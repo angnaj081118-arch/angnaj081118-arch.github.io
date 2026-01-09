@@ -565,16 +565,6 @@ cursor: pointer;}
         min-height: 0;  
 }
 
-.Sbutton {position: absolute;
- right: 1%;
-    bottom: 1%;
-opacity: 0;
-    width: 7%;
-    height: auto;
-    cursor: pointer;
-filter: invert(1);
-    z-index: 5;
-}
 
 
 .black {
@@ -642,10 +632,6 @@ filter: invert(1);
     padding: 1rem;
   }
 
-  .Sbutton {
-   display: none;
-    width: 12%;
-  }
 
 
    .storywrap.active .Sbutton {
