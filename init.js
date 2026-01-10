@@ -197,10 +197,11 @@ prevv.addEventListener("click", slideprev);
 
 
  // Till mobil för section 4 och Banners //
- storywrap.addEventListener("click", () => {
-  storywrap.classList.toggle("active");
+wrap.forEach(laaa => {
+  laaa.addEventListener("click", () => {
+    laaa.classList.toggle("active");
+  });
 });
-
 
 
 // scroller för section 3 // 
