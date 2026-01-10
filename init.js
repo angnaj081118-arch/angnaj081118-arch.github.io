@@ -232,8 +232,3 @@ if (scrollY > maxScroll) scrollY = maxScroll;     //för när den är längst ne
 
 });      
  
-
-
-
-
-
