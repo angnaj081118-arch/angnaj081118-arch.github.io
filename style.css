@@ -9,14 +9,9 @@
      scroll-behavior: smooth;
  }
 
-  /*
- html, body { 
-overflow: hidden;
-}
-*/
 
  body {
-     background-image: url(https://i.redd.it/wallpaper-vol-1-route-77-the-haunted-highway-v0-21b0ptt9vb7e1.png?width=2560&format=png&auto=webp&s=8bc81d70bccd8c9f5ab8080545124701bbd55cb7);
+     background-image: url(Thuesdaypeeek.jpg);
      background-repeat: no-repeat;
      background-attachment: fixed;
      background-position: center;
@@ -755,9 +750,6 @@ cursor: pointer;
 
 }
 
- .Video:hover {
-  filter: grayscale(1.0);
- }
 
 
 .Gallery {
@@ -767,10 +759,6 @@ cursor: pointer;
      border: inset rgb(35, 14, 14) 7px;
        transition: transform 0.3s ease, color 0.3s ease;
 }
-
- .Gallery:hover {
-  filter: grayscale(1.0);
- }
 
 .back {
     width: 25vw;
@@ -782,7 +770,7 @@ align-self: flex-end;
        transition: transform 0.3s ease, color 0.3s ease;
 }
 
- .back:hover {
+ .back:hover, .Gallery:hover, .Video:hover {
   filter: grayscale(1.0);
  }
 
@@ -857,15 +845,8 @@ transform:scale(1.1) translateY(140%) translateX(10%);
   }
 
  
-  .Gallery:hover{
-    filter: none;
-  }
 
-  .Video:hover{
-    filter: none;
-  }
-
-  .back:hover {
+  .back:hover, .Gallery:hover, .Video:hover {
     filter: none;
   }
 
