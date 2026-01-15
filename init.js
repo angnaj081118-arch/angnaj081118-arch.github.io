@@ -226,7 +226,7 @@ const top = iconBar.clientHeight
 
    if (scrollY < 0) scrollY = 0;            // för när den är högst upp så att den inte scrollar mer än högst up. //
 
-if (scrollY > maxScroll) scrollY = maxScroll;     //för när den är längst ner så att den inte scroller mer än längre ner //
+if (scrollY > maxScroll) scrollY = maxScroll;     //Hur mycket den får scrolla. //
 
     iconScroll.style.transform = `translateY(${-scrollY}px)`;    // har med css transform skane jag la in samt gör så att scrollerna scrollar ner, Y axeln blir alltså - när man går ner. //
 
